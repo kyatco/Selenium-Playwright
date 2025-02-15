@@ -13,16 +13,8 @@ Before setting up the project, ensure you have the following installed:
 2. **Chrome Browser** (or any other browser of choice)  
    You can install Chrome from [here](https://www.google.com/chrome/).
 
-### Step 1: Clone the Repository
 
-First, clone this repository to your local machine.
-
-```bash
-git clone <repository-url>
-cd Selenium-Playwright
-```
-
-### Step 2: Install Dependencies
+### Step 1: Install Dependencies
 
 In the project folder, run the following command to install all the required dependencies:
 
@@ -40,7 +32,7 @@ This will install:
 - `cucumber-html-reporter`: For generating HTML reports.
 - `playwright`: For Playwright
 
-### Step 3: Set Up Folder Structure
+### Step 2: Set Up Folder Structure
 
 Ensure your folder structure matches this layout:
 
@@ -66,13 +58,13 @@ selenium-cucumber-pom
 
 ```
 
-### Step 4: Running the Tests in Selenium
+### Step 3: Running the Tests in Selenium
 
 ```bash
 npm test
 ```
 
-### Step 5: Running the Tests in Playwright 
+### Step 4: Running the Tests in Playwright 
 
 Only login feature is supported in Playwright
 
