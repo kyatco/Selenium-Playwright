@@ -1,0 +1,247 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login,-add-and-delete-item-to-the-application;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204928041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "stepdefinitions/steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4327289207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter valid credentials username \"tomsmith\" and password \"SuperSecretPassword!\"",
+            "match": {
+              "location": "stepdefinitions/steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 670353499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "stepdefinitions/steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4024707
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56115458
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login,-add-and-delete-item-to-the-application",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login, Add and Delete item to the application",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features/login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-and-delete;user-adds-a-new-to-do-item",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User adds a new to-do item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 215803584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the to do list page",
+            "match": {
+              "location": "stepdefinitions/steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1367640457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I add a new to-do item \"Add To Do List\"",
+            "match": {
+              "location": "stepdefinitions/steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81989582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"Add To Do List\" in the to-do list",
+            "match": {
+              "location": "stepdefinitions/steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21691832
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50899416
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todo",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-and-delete;user-deletes-a-tco-do-item",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User deletes a tco-do item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 212780332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I have a to-do item \"First Item\"",
+            "match": {
+              "location": "stepdefinitions/steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1861274665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I delete the to-do item \"First Item\"",
+            "match": {
+              "location": "stepdefinitions/steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37652332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the to-do item \"First Item\" should be crossed out",
+            "match": {
+              "location": "stepdefinitions/steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6793833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52950791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todo",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-and-delete",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Add and Delete",
+    "tags": [
+      {
+        "name": "@todo",
+        "line": 1
+      }
+    ],
+    "uri": "features/todolist.feature"
+  }
+]

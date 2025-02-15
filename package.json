@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "cucumber-js"
+
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "chai": "^5.2.0",
+    "playwright": "^1.50.1",
+    "selenium-webdriver": "^4.28.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^133.0.1",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}
