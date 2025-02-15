@@ -22,7 +22,7 @@ git clone <repository-url>
 cd Selenium-Playwright
 ```
 
-### Step 1: Install Dependencies
+### Step 2: Install Dependencies
 
 In the project folder, run the following command to install all the required dependencies:
 
